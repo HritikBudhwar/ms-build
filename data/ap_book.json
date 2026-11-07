@@ -1,0 +1,1514 @@
+{
+  "buyer": {
+    "name": "Kaveri Precision Components Pvt Ltd",
+    "gstin": "29AAHCK4821M1Z3",
+    "address": "Plot 41, Bommasandra Industrial Area, Bengaluru 560099",
+    "state_code": "29",
+    "tolerance_pct": 1.0
+  },
+  "vendors": [
+    {
+      "id": "V001",
+      "name": "Shree Balaji Packaging Pvt Ltd",
+      "city": "Peenya, Bengaluru",
+      "gstin": "29AAJCS7712K1ZT",
+      "msme": {
+        "udyam": "UDYAM-KR-03-0041187",
+        "category": "Micro"
+      },
+      "terms_days": 30,
+      "category": "Packaging",
+      "tds_section": "194Q",
+      "email": "accounts@balajipack.in"
+    },
+    {
+      "id": "V002",
+      "name": "Coastal Freight Carriers",
+      "city": "Ambattur, Chennai",
+      "gstin": "33AAFFC3390P1Z6",
+      "msme": null,
+      "terms_days": 30,
+      "category": "Logistics (GTA)",
+      "tds_section": "194C",
+      "email": "billing@coastalfreight.co.in"
+    },
+    {
+      "id": "V003",
+      "name": "Deccan Steel Traders",
+      "city": "Balanagar, Hyderabad",
+      "gstin": "36AAKFD5521H1ZI",
+      "msme": null,
+      "terms_days": 45,
+      "category": "Raw material",
+      "tds_section": "194Q",
+      "email": "accounts@deccansteel.in"
+    },
+    {
+      "id": "V004",
+      "name": "Nimbus Cloudworks Pvt Ltd",
+      "city": "Hinjawadi, Pune",
+      "gstin": "27AADCN9087Q1ZG",
+      "msme": null,
+      "terms_days": 30,
+      "category": "IT services",
+      "tds_section": null,
+      "email": "ar@nimbuscloudworks.com"
+    },
+    {
+      "id": "V005",
+      "name": "Sri Lakshmi Electricals",
+      "city": "Hebbal Industrial Area, Mysuru",
+      "gstin": "29ABMPL6230D1ZO",
+      "msme": {
+        "udyam": "UDYAM-KR-27-0009823",
+        "category": "Small"
+      },
+      "terms_days": 60,
+      "category": "Electricals",
+      "tds_section": "194Q",
+      "email": "srilakshmi.elec@gmail.com"
+    },
+    {
+      "id": "V006",
+      "name": "Apex Industrial Supplies",
+      "city": "Bhosari MIDC, Pune",
+      "gstin": "27AAQFA2245L1Z6",
+      "msme": null,
+      "terms_days": 45,
+      "category": "Tooling",
+      "tds_section": "194Q",
+      "email": "invoices@apexindustrial.in"
+    },
+    {
+      "id": "V007",
+      "name": "Vrindavan Trading Co",
+      "city": "Naraina, New Delhi",
+      "gstin": "07AAIFV1189B1ZA",
+      "msme": null,
+      "terms_days": 30,
+      "category": "Consumables",
+      "tds_section": "194Q",
+      "email": "vrindavantrading@yahoo.co.in"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "po_number": "4500011870",
+      "vendor_id": "V006",
+      "date": "2026-08-11",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "desc": "Solid carbide end mill 10mm",
+          "hsn": "8207",
+          "qty": 40,
+          "rate": 2450.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 25,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012231",
+      "vendor_id": "V001",
+      "date": "2026-09-01",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 2200,
+          "rate": 86.5,
+          "gst_rate": 18
+        },
+        {
+          "sku": "PK-SEP-01",
+          "desc": "Corrugated separator sheet",
+          "hsn": "4819",
+          "qty": 4000,
+          "rate": 9.2,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012304",
+      "vendor_id": "V002",
+      "date": "2026-09-08",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 6,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ]
+    },
+    {
+      "po_number": "4500012342",
+      "vendor_id": "V003",
+      "date": "2026-09-15",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "desc": "HR sheet IS 2062 E250, 2mm",
+          "hsn": "7208",
+          "qty": 12.5,
+          "rate": 61200.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "RM-CR-1.2",
+          "desc": "CR coil IS 513, 1.2mm",
+          "hsn": "7209",
+          "qty": 6.0,
+          "rate": 68900.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012371",
+      "vendor_id": "V005",
+      "date": "2026-09-19",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 450,
+          "rate": 412.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "EL-MCB-63A",
+          "desc": "63A TP MCB",
+          "hsn": "8536",
+          "qty": 18,
+          "rate": 1860.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012455",
+      "vendor_id": "V002",
+      "date": "2026-10-03",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 8,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ]
+    },
+    {
+      "po_number": "4500012390",
+      "vendor_id": "V004",
+      "date": "2026-10-01",
+      "lines": [
+        {
+          "sku": "IT-ERP-IMPL",
+          "desc": "ERP implementation & managed services (monthly)",
+          "hsn": "998314",
+          "qty": 1,
+          "rate": 385000.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012480",
+      "vendor_id": "V001",
+      "date": "2026-10-13",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 1800,
+          "rate": 86.5,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012511",
+      "vendor_id": "V006",
+      "date": "2026-10-20",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 120,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012602",
+      "vendor_id": "V006",
+      "date": "2026-11-02",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "desc": "Solid carbide end mill 10mm",
+          "hsn": "8207",
+          "qty": 60,
+          "rate": 2450.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012617",
+      "vendor_id": "V001",
+      "date": "2026-11-02",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 2600,
+          "rate": 86.5,
+          "gst_rate": 18
+        },
+        {
+          "sku": "PK-SEP-01",
+          "desc": "Corrugated separator sheet",
+          "hsn": "4819",
+          "qty": 5000,
+          "rate": 9.2,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012625",
+      "vendor_id": "V002",
+      "date": "2026-11-03",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 7,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ]
+    },
+    {
+      "po_number": "4500012630",
+      "vendor_id": "V003",
+      "date": "2026-11-02",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "desc": "HR sheet IS 2062 E250, 2mm",
+          "hsn": "7208",
+          "qty": 15.0,
+          "rate": 61200.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012560",
+      "vendor_id": "V005",
+      "date": "2026-10-29",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 600,
+          "rate": 412.0,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012641",
+      "vendor_id": "V007",
+      "date": "2026-11-04",
+      "lines": [
+        {
+          "sku": "CS-GLV-NIT",
+          "desc": "Nitrile gloves (box of 100)",
+          "hsn": "4015",
+          "qty": 300,
+          "rate": 640.0,
+          "gst_rate": 12
+        }
+      ]
+    },
+    {
+      "po_number": "4500012655",
+      "vendor_id": "V001",
+      "date": "2026-11-05",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 3000,
+          "rate": 86.5,
+          "gst_rate": 18
+        }
+      ]
+    },
+    {
+      "po_number": "4500012660",
+      "vendor_id": "V006",
+      "date": "2026-11-05",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 80,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ]
+    }
+  ],
+  "grns": [
+    {
+      "grn_number": "GRN-0901",
+      "po_number": "4500011870",
+      "invoice_id": "INV-0901",
+      "date": "2026-08-13",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "qty_received": 40
+        },
+        {
+          "sku": "TL-INS-CNMG",
+          "qty_received": 25
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0902",
+      "po_number": "4500012231",
+      "invoice_id": "INV-0902",
+      "date": "2026-09-03",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "qty_received": 2200
+        },
+        {
+          "sku": "PK-SEP-01",
+          "qty_received": 4000
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0903",
+      "po_number": "4500012304",
+      "invoice_id": "INV-0903",
+      "date": "2026-09-10",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "qty_received": 6
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0904",
+      "po_number": "4500012342",
+      "invoice_id": "INV-0904",
+      "date": "2026-09-18",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "qty_received": 12.5
+        },
+        {
+          "sku": "RM-CR-1.2",
+          "qty_received": 6.0
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0905A",
+      "po_number": "4500012371",
+      "invoice_id": "INV-0905A",
+      "date": "2026-09-20",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "qty_received": 450
+        },
+        {
+          "sku": "EL-MCB-63A",
+          "qty_received": 18
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0905",
+      "po_number": "4500012371",
+      "invoice_id": "INV-0905",
+      "date": "2026-09-24",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "qty_received": 450
+        },
+        {
+          "sku": "EL-MCB-63A",
+          "qty_received": 18
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0906",
+      "po_number": "4500012455",
+      "invoice_id": "INV-0906",
+      "date": "2026-10-06",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "qty_received": 8
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0907",
+      "po_number": "4500012390",
+      "invoice_id": "INV-0907",
+      "date": "2026-10-12",
+      "lines": [
+        {
+          "sku": "IT-ERP-IMPL",
+          "qty_received": 1
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0908",
+      "po_number": "4500012480",
+      "invoice_id": "INV-0908",
+      "date": "2026-10-15",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "qty_received": 1800
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-0909",
+      "po_number": "4500012511",
+      "invoice_id": "INV-0909",
+      "date": "2026-10-22",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "qty_received": 100
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1101",
+      "po_number": "4500012602",
+      "invoice_id": "INV-1101",
+      "date": "2026-11-03",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "qty_received": 60
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1102",
+      "po_number": "4500012617",
+      "invoice_id": "INV-1102",
+      "date": "2026-11-03",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "qty_received": 2600
+        },
+        {
+          "sku": "PK-SEP-01",
+          "qty_received": 5000
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1103",
+      "po_number": "4500012625",
+      "invoice_id": "INV-1103",
+      "date": "2026-11-04",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "qty_received": 7
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1104",
+      "po_number": "4500012630",
+      "invoice_id": "INV-1104",
+      "date": "2026-11-04",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "qty_received": 15.0
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1105A",
+      "po_number": "4500012560",
+      "invoice_id": "INV-1105A",
+      "date": "2026-10-30",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "qty_received": 560
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1105",
+      "po_number": "4500012560",
+      "invoice_id": "INV-1105",
+      "date": "2026-11-05",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "qty_received": 560
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1106",
+      "po_number": "4500012641",
+      "invoice_id": "INV-1106",
+      "date": "2026-11-05",
+      "lines": [
+        {
+          "sku": "CS-GLV-NIT",
+          "qty_received": 300
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1107",
+      "po_number": "4500012390",
+      "invoice_id": "INV-1107",
+      "date": "2026-11-06",
+      "lines": [
+        {
+          "sku": "IT-ERP-IMPL",
+          "qty_received": 1
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1108",
+      "po_number": "4500012655",
+      "invoice_id": "INV-1108",
+      "date": "2026-11-06",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "qty_received": 3000
+        }
+      ]
+    },
+    {
+      "grn_number": "GRN-1109",
+      "po_number": "4500012660",
+      "invoice_id": "INV-1109",
+      "date": "2026-11-07",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "qty_received": 64
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-0901",
+      "phase": "history",
+      "invoice_number": "AIS/26-27/0388",
+      "vendor_id": "V006",
+      "vendor_gstin": "27AAQFA2245L1Z6",
+      "invoice_date": "2026-08-11",
+      "received_date": "2026-08-13",
+      "po_number": "4500011870",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "desc": "Solid carbide end mill 10mm",
+          "hsn": "8207",
+          "qty": 40,
+          "rate": 2450.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 25,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 195250.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 35145.0
+      },
+      "total": 230395.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0902",
+      "phase": "history",
+      "invoice_number": "SBP/2026-27/0412",
+      "vendor_id": "V001",
+      "vendor_gstin": "29AAJCS7712K1ZT",
+      "invoice_date": "2026-09-01",
+      "received_date": "2026-09-03",
+      "po_number": "4500012231",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 2200,
+          "rate": 88.23,
+          "gst_rate": 18
+        },
+        {
+          "sku": "PK-SEP-01",
+          "desc": "Corrugated separator sheet",
+          "hsn": "4819",
+          "qty": 4000,
+          "rate": 9.38,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 231626.0,
+      "taxes": {
+        "cgst": 20846.34,
+        "sgst": 20846.34,
+        "igst": 0.0
+      },
+      "total": 273318.68,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0903",
+      "phase": "history",
+      "invoice_number": "CFC/BLR/2611",
+      "vendor_id": "V002",
+      "vendor_gstin": "33AAFFC3390P1Z6",
+      "invoice_date": "2026-09-08",
+      "received_date": "2026-09-10",
+      "po_number": "4500012304",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 6,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ],
+      "extra_charges": [
+        {
+          "desc": "Fuel surcharge (diesel-linked)",
+          "amount": 15015.0,
+          "gst_rate": 12
+        }
+      ],
+      "taxable_value": 246015.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 29521.8
+      },
+      "total": 275536.8,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0904",
+      "phase": "history",
+      "invoice_number": "DST/0917/26",
+      "vendor_id": "V003",
+      "vendor_gstin": "36AAKFD5521H1ZI",
+      "invoice_date": "2026-09-15",
+      "received_date": "2026-09-18",
+      "po_number": "4500012342",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "desc": "HR sheet IS 2062 E250, 2mm",
+          "hsn": "7208",
+          "qty": 12.5,
+          "rate": 61200.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "RM-CR-1.2",
+          "desc": "CR coil IS 513, 1.2mm",
+          "hsn": "7209",
+          "qty": 6.0,
+          "rate": 68900.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 1178400.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 212112.0
+      },
+      "total": 1390512.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0905A",
+      "phase": "history",
+      "invoice_number": "SLE/1187",
+      "vendor_id": "V005",
+      "vendor_gstin": "29ABMPL6230D1ZO",
+      "invoice_date": "2026-09-19",
+      "received_date": "2026-09-20",
+      "po_number": "4500012371",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 450,
+          "rate": 426.01,
+          "gst_rate": 18
+        },
+        {
+          "sku": "EL-MCB-63A",
+          "desc": "63A TP MCB",
+          "hsn": "8536",
+          "qty": 18,
+          "rate": 1860.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 225184.5,
+      "taxes": {
+        "cgst": 20266.6,
+        "sgst": 20266.6,
+        "igst": 0.0
+      },
+      "total": 265717.71,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0905",
+      "phase": "history",
+      "invoice_number": "SLE/1187-R",
+      "vendor_id": "V005",
+      "vendor_gstin": "29ABMPL6230D1ZO",
+      "invoice_date": "2026-09-23",
+      "received_date": "2026-09-24",
+      "po_number": "4500012371",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 450,
+          "rate": 412.0,
+          "gst_rate": 18
+        },
+        {
+          "sku": "EL-MCB-63A",
+          "desc": "63A TP MCB",
+          "hsn": "8536",
+          "qty": 18,
+          "rate": 1860.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 218880.0,
+      "taxes": {
+        "cgst": 19699.2,
+        "sgst": 19699.2,
+        "igst": 0.0
+      },
+      "total": 258278.4,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0906",
+      "phase": "history",
+      "invoice_number": "CFC/BLR/2688",
+      "vendor_id": "V002",
+      "vendor_gstin": "33AAFFC3390P1Z6",
+      "invoice_date": "2026-10-03",
+      "received_date": "2026-10-06",
+      "po_number": "4500012455",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 8,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ],
+      "extra_charges": [
+        {
+          "desc": "Fuel surcharge (diesel-linked)",
+          "amount": 34496.0,
+          "gst_rate": 12
+        }
+      ],
+      "taxable_value": 342496.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 41099.52
+      },
+      "total": 383595.52,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0907",
+      "phase": "history",
+      "invoice_number": "NCW/INV/26/1044",
+      "vendor_id": "V004",
+      "vendor_gstin": "27AADCN9087Q1ZG",
+      "invoice_date": "2026-10-01",
+      "received_date": "2026-10-12",
+      "po_number": "4500012390",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "IT-ERP-IMPL",
+          "desc": "ERP implementation & managed services (monthly)",
+          "hsn": "998314",
+          "qty": 1,
+          "rate": 385000.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 385000.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 69300.0
+      },
+      "total": 454300.0,
+      "tds_section_on_invoice": "194C"
+    },
+    {
+      "id": "INV-0908",
+      "phase": "history",
+      "invoice_number": "SBP/2026-27/0507",
+      "vendor_id": "V001",
+      "vendor_gstin": "29AAJCS7712K1ZT",
+      "invoice_date": "2026-10-13",
+      "received_date": "2026-10-15",
+      "po_number": "4500012480",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 1800,
+          "rate": 88.06,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 158508.0,
+      "taxes": {
+        "cgst": 14265.72,
+        "sgst": 14265.72,
+        "igst": 0.0
+      },
+      "total": 187039.44,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-0909",
+      "phase": "history",
+      "invoice_number": "AIS/26-27/0461",
+      "vendor_id": "V006",
+      "vendor_gstin": "27AAQFA2245L1Z6",
+      "invoice_date": "2026-10-20",
+      "received_date": "2026-10-22",
+      "po_number": "4500012511",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 120,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 466800.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 84024.0
+      },
+      "total": 550824.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1101",
+      "phase": "live",
+      "invoice_number": "AIS/26-27/0502",
+      "vendor_id": "V006",
+      "vendor_gstin": "27AAQFA2245L1Z6",
+      "invoice_date": "2026-11-02",
+      "received_date": "2026-11-03",
+      "po_number": "4500012602",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "TL-CARB-10",
+          "desc": "Solid carbide end mill 10mm",
+          "hsn": "8207",
+          "qty": 60,
+          "rate": 2450.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 147000.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 26460.0
+      },
+      "total": 173460.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1102",
+      "phase": "live",
+      "invoice_number": "SBP/2026-27/0588",
+      "vendor_id": "V001",
+      "vendor_gstin": "29AAJCS7712K1ZT",
+      "invoice_date": "2026-11-02",
+      "received_date": "2026-11-03",
+      "po_number": "4500012617",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 2600,
+          "rate": 88.4,
+          "gst_rate": 18
+        },
+        {
+          "sku": "PK-SEP-01",
+          "desc": "Corrugated separator sheet",
+          "hsn": "4819",
+          "qty": 5000,
+          "rate": 9.4,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 276840.0,
+      "taxes": {
+        "cgst": 24915.6,
+        "sgst": 24915.6,
+        "igst": 0.0
+      },
+      "total": 326671.2,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1103",
+      "phase": "live",
+      "invoice_number": "CFC/BLR/2790",
+      "vendor_id": "V002",
+      "vendor_gstin": "33AAFFC3390P1Z6",
+      "invoice_date": "2026-11-03",
+      "received_date": "2026-11-04",
+      "po_number": "4500012625",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "LG-FTL-BLR-CHN",
+          "desc": "FTL freight Bengaluru-Chennai, 32ft MXL",
+          "hsn": "996511",
+          "qty": 7,
+          "rate": 38500.0,
+          "gst_rate": 12
+        }
+      ],
+      "extra_charges": [
+        {
+          "desc": "Fuel surcharge (diesel-linked)",
+          "amount": 25872.0,
+          "gst_rate": 12
+        }
+      ],
+      "taxable_value": 295372.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 35444.64
+      },
+      "total": 330816.64,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1104",
+      "phase": "live",
+      "invoice_number": "DST/1104/26",
+      "vendor_id": "V003",
+      "vendor_gstin": "36AAKFD5521H1ZI",
+      "invoice_date": "2026-11-02",
+      "received_date": "2026-11-04",
+      "po_number": "4500012630",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "RM-HR-2MM",
+          "desc": "HR sheet IS 2062 E250, 2mm",
+          "hsn": "7208",
+          "qty": 15.0,
+          "rate": 61200.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 918000.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 165240.0
+      },
+      "total": 1083240.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1105A",
+      "phase": "history",
+      "invoice_number": "SLE/1342",
+      "vendor_id": "V005",
+      "vendor_gstin": "29ABMPL6230D1ZO",
+      "invoice_date": "2026-10-29",
+      "received_date": "2026-10-30",
+      "po_number": "4500012560",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 600,
+          "rate": 412.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 247200.0,
+      "taxes": {
+        "cgst": 22248.0,
+        "sgst": 22248.0,
+        "igst": 0.0
+      },
+      "total": 291696.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1105",
+      "phase": "live",
+      "invoice_number": "SLE/1342-R",
+      "vendor_id": "V005",
+      "vendor_gstin": "29ABMPL6230D1ZO",
+      "invoice_date": "2026-11-04",
+      "received_date": "2026-11-05",
+      "po_number": "4500012560",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "EL-CBL-4C16",
+          "desc": "4C x 16 sq.mm armoured Cu cable (m)",
+          "hsn": "8544",
+          "qty": 560,
+          "rate": 412.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 230720.0,
+      "taxes": {
+        "cgst": 20764.8,
+        "sgst": 20764.8,
+        "igst": 0.0
+      },
+      "total": 272249.6,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1106",
+      "phase": "live",
+      "invoice_number": "VTC/2026/118",
+      "vendor_id": "V007",
+      "vendor_gstin": "07AAIFV1189B1ZA",
+      "invoice_date": "2026-11-04",
+      "received_date": "2026-11-05",
+      "po_number": "4500012641",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "CS-GLV-NIT",
+          "desc": "Nitrile gloves (box of 100)",
+          "hsn": "4015",
+          "qty": 300,
+          "rate": 640.0,
+          "gst_rate": 12
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 192000.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 23040.0
+      },
+      "total": 215040.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1107",
+      "phase": "live",
+      "invoice_number": "NCW/INV/26/1187",
+      "vendor_id": "V004",
+      "vendor_gstin": "27AADCN9087Q1ZG",
+      "invoice_date": "2026-11-01",
+      "received_date": "2026-11-06",
+      "po_number": "4500012390",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "IT-ERP-IMPL",
+          "desc": "ERP implementation & managed services (monthly)",
+          "hsn": "998314",
+          "qty": 1,
+          "rate": 385000.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 385000.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 69300.0
+      },
+      "total": 454300.0,
+      "tds_section_on_invoice": "194C"
+    },
+    {
+      "id": "INV-1108",
+      "phase": "live",
+      "invoice_number": "SBP/2026-27/0601",
+      "vendor_id": "V001",
+      "vendor_gstin": "29AAJCS7712K1ZT",
+      "invoice_date": "2026-11-05",
+      "received_date": "2026-11-06",
+      "po_number": "4500012655",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "PK-CB-5PLY",
+          "desc": "5-ply corrugated box 600x400x400",
+          "hsn": "4819",
+          "qty": 3000,
+          "rate": 90.05,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 270150.0,
+      "taxes": {
+        "cgst": 24313.5,
+        "sgst": 24313.5,
+        "igst": 0.0
+      },
+      "total": 318777.0,
+      "tds_section_on_invoice": null
+    },
+    {
+      "id": "INV-1109",
+      "phase": "live",
+      "invoice_number": "AIS/26-27/0519",
+      "vendor_id": "V006",
+      "vendor_gstin": "27AAQFA2245L1Z6",
+      "invoice_date": "2026-11-05",
+      "received_date": "2026-11-07",
+      "po_number": "4500012660",
+      "place_of_supply": "29-Karnataka",
+      "lines": [
+        {
+          "sku": "TL-INS-CNMG",
+          "desc": "CNMG 120408 turning insert (box of 10)",
+          "hsn": "8207",
+          "qty": 80,
+          "rate": 3890.0,
+          "gst_rate": 18
+        }
+      ],
+      "extra_charges": [],
+      "taxable_value": 311200.0,
+      "taxes": {
+        "cgst": 0.0,
+        "sgst": 0.0,
+        "igst": 56016.0
+      },
+      "total": 367216.0,
+      "tds_section_on_invoice": null
+    }
+  ],
+  "gstr2b": [
+    {
+      "supplier_gstin": "27AAQFA2245L1Z6",
+      "invoice_number": "AIS/26-27/0388",
+      "invoice_date": "2026-08-11",
+      "taxable_value": 195250.0,
+      "tax": 35145.0
+    },
+    {
+      "supplier_gstin": "29AAJCS7712K1ZT",
+      "invoice_number": "SBP/2026-27/0412",
+      "invoice_date": "2026-09-01",
+      "taxable_value": 231626.0,
+      "tax": 41692.68
+    },
+    {
+      "supplier_gstin": "33AAFFC3390P1Z6",
+      "invoice_number": "CFC/BLR/2611",
+      "invoice_date": "2026-09-08",
+      "taxable_value": 246015.0,
+      "tax": 29521.8
+    },
+    {
+      "supplier_gstin": "29ABMPL6230D1ZO",
+      "invoice_number": "SLE/1187",
+      "invoice_date": "2026-09-19",
+      "taxable_value": 225184.5,
+      "tax": 40533.21
+    },
+    {
+      "supplier_gstin": "29ABMPL6230D1ZO",
+      "invoice_number": "SLE/1187-R",
+      "invoice_date": "2026-09-23",
+      "taxable_value": 218880.0,
+      "tax": 39398.4
+    },
+    {
+      "supplier_gstin": "33AAFFC3390P1Z6",
+      "invoice_number": "CFC/BLR/2688",
+      "invoice_date": "2026-10-03",
+      "taxable_value": 342496.0,
+      "tax": 41099.52
+    },
+    {
+      "supplier_gstin": "27AADCN9087Q1ZG",
+      "invoice_number": "NCW/INV/26/1044",
+      "invoice_date": "2026-10-01",
+      "taxable_value": 385000.0,
+      "tax": 69300.0
+    },
+    {
+      "supplier_gstin": "29AAJCS7712K1ZT",
+      "invoice_number": "SBP/2026-27/0507",
+      "invoice_date": "2026-10-13",
+      "taxable_value": 158508.0,
+      "tax": 28531.44
+    },
+    {
+      "supplier_gstin": "27AAQFA2245L1Z6",
+      "invoice_number": "AIS/26-27/0461",
+      "invoice_date": "2026-10-20",
+      "taxable_value": 466800.0,
+      "tax": 84024.0
+    },
+    {
+      "supplier_gstin": "27AAQFA2245L1Z6",
+      "invoice_number": "AIS/26-27/0502",
+      "invoice_date": "2026-11-02",
+      "taxable_value": 147000.0,
+      "tax": 26460.0
+    },
+    {
+      "supplier_gstin": "29AAJCS7712K1ZT",
+      "invoice_number": "SBP/2026-27/0588",
+      "invoice_date": "2026-11-02",
+      "taxable_value": 276840.0,
+      "tax": 49831.2
+    },
+    {
+      "supplier_gstin": "33AAFFC3390P1Z6",
+      "invoice_number": "CFC/BLR/2790",
+      "invoice_date": "2026-11-03",
+      "taxable_value": 295372.0,
+      "tax": 35444.64
+    },
+    {
+      "supplier_gstin": "29ABMPL6230D1ZO",
+      "invoice_number": "SLE/1342",
+      "invoice_date": "2026-10-29",
+      "taxable_value": 247200.0,
+      "tax": 44496.0
+    },
+    {
+      "supplier_gstin": "29ABMPL6230D1ZO",
+      "invoice_number": "SLE/1342-R",
+      "invoice_date": "2026-11-04",
+      "taxable_value": 230720.0,
+      "tax": 41529.6
+    },
+    {
+      "supplier_gstin": "27AADCN9087Q1ZG",
+      "invoice_number": "NCW/INV/26/1187",
+      "invoice_date": "2026-11-01",
+      "taxable_value": 385000.0,
+      "tax": 69300.0
+    },
+    {
+      "supplier_gstin": "29AAJCS7712K1ZT",
+      "invoice_number": "SBP/2026-27/0601",
+      "invoice_date": "2026-11-05",
+      "taxable_value": 270150.0,
+      "tax": 48627.0
+    },
+    {
+      "supplier_gstin": "27AAQFA2245L1Z6",
+      "invoice_number": "AIS/26-27/0519",
+      "invoice_date": "2026-11-05",
+      "taxable_value": 311200.0,
+      "tax": 56016.0
+    }
+  ],
+  "history_decisions": {
+    "INV-0901": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "APPROVED",
+      "note": "Clean three-way match. Paid on terms."
+    },
+    "INV-0902": {
+      "by": "Meera Iyer",
+      "role": "Head of Procurement",
+      "decision": "APPROVED",
+      "note": "Rate contract RC-SBP-2025 clause 7.2 gives Shree Balaji an annual escalation linked to the kraft paper index, capped at 2.5%, effective 1 April. Our PO master was never updated. Accept SBP price variance up to 2.5% without escalating to me. Anything above 2.5% comes to me."
+    },
+    "INV-0903": {
+      "by": "Arjun Rao",
+      "role": "Logistics Manager",
+      "decision": "APPROVED",
+      "note": "Diesel-linked fuel surcharge is allowed under transport agreement TA-CFC-24, Annexure B, up to 8% of base freight. It is never on the PO. Up to 8% is fine; above 8% push back."
+    },
+    "INV-0904": {
+      "by": "Kavya Menon",
+      "role": "Financial Controller",
+      "decision": "PARTIAL",
+      "note": "Deccan Steel files GSTR-1 late - usually between the 20th and 25th, not by the 11th - so their invoices miss our first GSTR-2B. Do not block a key steel supplier: release the taxable value, hold only the GST component until the invoice shows in 2B. It reflected in the next cycle."
+    },
+    "INV-0905A": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "REJECTED",
+      "note": "Cable rate billed 3.4% above PO. Sent back to Sri Lakshmi Electricals for correction."
+    },
+    "INV-0905": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "APPROVED",
+      "note": "Sri Lakshmi Electricals re-sends corrected invoices with a '-R' suffix. SLE/1187-R replaces SLE/1187, which they cancelled with credit note CN/SLE/044. Not a duplicate - pay the -R version and make sure the original is never paid. MSME (Small): keep within 45 days."
+    },
+    "INV-0906": {
+      "by": "Arjun Rao",
+      "role": "Logistics Manager",
+      "decision": "REJECTED",
+      "note": "Fuel surcharge of 11.2% is over the 8% Annexure B cap. I emailed Coastal citing Annexure B and they re-issued at 7.5% within two days. Pushback works with Coastal - always cite Annexure B."
+    },
+    "INV-0907": {
+      "by": "Kavya Menon",
+      "role": "Financial Controller",
+      "decision": "APPROVED",
+      "note": "Nimbus Cloudworks marks 194C on its invoices, but our tax consultant (opinion dated 9 Oct 2026) classified their ERP implementation and managed services as fees for technical services: deduct TDS under 194J(b) at 2%, not 194C. The rate is the same but the section matters for 26Q filing and their 26AS match. Update vendor master to 194J(b)."
+    },
+    "INV-0908": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "APPROVED",
+      "note": "1.8% variance, within Meera's 2.5% SBP escalation tolerance. Approved without escalation."
+    },
+    "INV-0909": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "PARTIAL",
+      "note": "Apex short-shipped 20 inserts but billed 120. They always ship the balance in the next consignment and bill it then if we ask. Pay only for the GRN quantity and ask Apex for a credit note on the difference - no need to reject the whole invoice."
+    },
+    "INV-1105A": {
+      "by": "Ravi Kumar",
+      "role": "AP Executive",
+      "decision": "REJECTED",
+      "note": "Billed 600 m, GRN shows 560 m. Returned to Sri Lakshmi Electricals for a revised invoice."
+    }
+  }
+}

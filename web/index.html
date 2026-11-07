@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Munshi - AP agent that remembers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">म</span>
+      <div>
+        <div class="brand-name">Munshi</div>
+        <div class="brand-sub">Accounts payable agent that remembers every exception</div>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="queue">Exception queue</button>
+      <button class="tab" data-view="curve">Learning curve</button>
+      <button class="tab" data-view="explore">Memory explorer</button>
+    </nav>
+    <div class="health" id="health"></div>
+  </header>
+
+  <main>
+    <section class="view active" id="view-queue">
+      <aside class="queue" id="queue"></aside>
+      <div class="detail" id="detail">
+        <div class="empty">
+          <h2>Pick an invoice from the November queue</h2>
+          <p>Munshi runs the AP controls, recalls what your team decided before from Hindsight, and
+             shows you the decision with and without memory side by side.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-curve">
+      <div class="curve-wrap" id="curve"></div>
+    </section>
+
+    <section class="view" id="view-explore">
+      <div class="explore-wrap">
+        <form id="explore-form" class="explore-form">
+          <input id="explore-q" placeholder="Ask the AP memory, e.g. 'fuel surcharge cap' or 'who approves price variance'" required>
+          <select id="explore-vendor"><option value="">All vendors</option></select>
+          <button class="btn primary" type="submit">Recall</button>
+        </form>
+        <div id="explore-results" class="mem-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card">
+      <button class="modal-x" id="modal-x" aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
