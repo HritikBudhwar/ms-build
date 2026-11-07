@@ -46,6 +46,7 @@ async def main():
             print(f"{BAD} LLM error: {e}")
             ok = False
 
+    await mem.client.aclose()
     print("\nAll good. Next: python scripts/replay_history.py" if ok else "\nFix the items above, then re-run.")
     return ok
 

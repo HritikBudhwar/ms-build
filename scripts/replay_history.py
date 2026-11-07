@@ -47,6 +47,7 @@ async def main(keep: bool):
         store.save_state(state)
         print(f"{inv['received_date']}  {inv['id']:<10} {vendors[inv['vendor_id']]['name'][:28]:<28} "
               f"agent={d['action']:<26} human={human['decision']:<9} memories={len(analysis['memories'])}")
+    await memory.client.aclose()
     print("\nHistory replayed. Start the app and open the November queue.")
 
 

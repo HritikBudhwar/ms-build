@@ -35,6 +35,7 @@ async def lifespan(_app):
         except Exception as e:
             log.error("Hindsight bank setup failed: %s", e)
     yield
+    await memory.client.aclose()
 
 
 app = FastAPI(title="Munshi", lifespan=lifespan)
